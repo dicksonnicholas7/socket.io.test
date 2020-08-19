@@ -18,7 +18,8 @@ joinButton.addEventListener('click', function (e) {
     socket.emit('join', details );
 
     document.getElementById("room").readOnly = true;
-
+    document.getElementById("btnJoin").disabled = true;
+    
 
 
   
